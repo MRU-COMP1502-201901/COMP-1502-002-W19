@@ -1,0 +1,4 @@
+Apple
+1.00
+Orange
+1.50
