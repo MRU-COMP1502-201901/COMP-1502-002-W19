@@ -15,3 +15,5 @@ public class ObjectWithStateEnum {
 		this.state = state;
 	}
 }
+
+
