@@ -153,7 +153,7 @@ The assignment is due in three parts. In the first part you will fill take the i
 ### The Design Document (52 marks total)
 
 Your design document needs to come in two parts, 
-**1) The Public Interface** for the **Player/Skater/Goalie/PlayerList/TeamWriter/TeamReader/TableFactory** classes and the 
+**1) The Public Interface** for the **Player/Skater/Goalie/PlayerList/TeamWriter/TeamReader/TableFactory/Table/RosterTable/SkaterStatTable/GoalieStatTable** classes and the 
 **2) Implementation Details** for those classes.
 
 For the public interface, for each class, you must describe provide a description including, what information the class is encapsulating, what the function of the class is, how the class interacts with other classes and what assumptions you've made regarding the design of the class. This description will be rather short for your three helper classes. **In particular, your choices for inheritance structure between classes and choices of encapsulation should be discussed.**
@@ -198,7 +198,7 @@ The Design Document will be marked with the following rubric:
        * 0 marks - No attempt to describe the implementation.
 
 
- * **The PlayerList/TeamReader/TeamWriter/TableFactory Classes**
+ * **The PlayerList/TeamReader/TeamWriter/RosterTable/SkaterStatTable/GoalieStatTable Classes**
     * The Class Descriptions
        * 4 marks - Provides a description of each class, detailed description of the encapsulated information, detailed description of the role of the class and its interaction, and the assumptions made regarding the design of the class.
        * 3 marks - Provides a description of each class, detailed description of the encapsulated information, detailed description of the role of the class and its interaction, and the assumptions made regarding the design of the class, but one of these topics is omitted.
@@ -279,12 +279,12 @@ The system will be marked according to the following rubric:
       * 4 marks - Has at least two functions of the above.
       * 2 marks - Has one function, but missing most.
       * 0 marks - No menu functionality added.
-   * PlayerList/TeamReader/TeamWriter/TableFactory
+   * PlayerList/TeamReader/TeamWriter/RosterTable/SkaterStatTable/GoalieStatTable
       * 8 marks - Loading from a file in the correct file, saving to a file in the correct place, creating formatted table version of PlayerList in the correct place, and that PlayerList still has the functionality need to add and get players for the menu.
       * 6 marks - Missing one function from the above.
       * 4 marks - Has at least two of the functions above
       * 2 marks - Has one function of the above.
-      * 0 marks - No PlayerList/TeamReader/TeamWriter/TableFactory functionality added.
+      * 0 marks - No PlayerList/TeamReader/TeamWriter/RosterTable/SkaterStatTable/GoalieStatTable functionality added.
    * Player/Skater/Goalie
       * 8 marks - Has the five constructors necessary. Has the needed modifiers to change the stats required (other setters are unnecessary). Has the required getters. Instance variables are private. Able to calculate points, power play points, shooting percentage, GAA, and SV%. Able to record shots, assists, goals, power play goals, power play assists, goals against, shots against, shutouts, and minutes played.
       * 6 marks - Missing one / two function from the above.
@@ -300,7 +300,7 @@ The system will be marked according to the following rubric:
       * 1 mark - Code deviates significantly from design document.
       * 0 marks - Design Document or Code not submitted.
    * Encapsulation
-      * 4 marks - Functionality and data are will divided between the classes. (Player duties correctly in Player/Skater/Goalie and I/O table creation duties in TeamReader/TeamWriter/TableFactory)
+      * 4 marks - Functionality and data are will divided between the classes. (Player duties correctly in Player/Skater/Goalie and I/O table creation duties in TeamReader/TeamWriter/RosterTable/SkaterStatTable/GoalieStatTable)
       * 3 marks - One or two instances of functionality or data in the wrong class.
       * 2 marks - Functionality consistently  in the wrong class, to much state exposed to other classes.
       * 1 mark - Functionality inconsistently  assigned to classes.
