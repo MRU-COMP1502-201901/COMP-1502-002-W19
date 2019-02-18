@@ -1,5 +1,7 @@
 # Assignment 2 - Refactoring a Hockey Time Keeper's Database
 
+Please keep the [due dates](duedates.md) in mind.
+
 We will be continuing to develop your application that works as a hockey Time Keeper's database. For this second phase we will be refactoring your code to better fulfill the principles of encapsulation and make use of inheritance/polymorphism. 
 
 **Refactoring** is the process of restructuring existing computer code. In particular, we will be taking our File input, File output, and our table String creation code and removing it from the Player/PlayerList classes and moving it into dedicated helper classes with public-static functions that the Main menu can use to load/save and create a table by giving or getting back the PlayerList.
