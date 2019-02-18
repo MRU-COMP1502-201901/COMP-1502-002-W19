@@ -90,7 +90,7 @@ Your **Goalie**/**Skater** classes should each have two constructors:
 
 The Player list should not need any new functionality. The PlayerList will still wrap an ArrayList class. You need to be able to be able to add a player, get a list of stored players, and get a player by their number (it might help to be able to get a skater or a goalie as well now). **However, a PlayerList will no longer be responsible for load/saving to a file, and no longer responsible for reporting a table of stats. These functions will be moved into the helper classes of TeamReader, TeamWriter and TableFactory**.
 
-We will again provide an example player file. This file is the same as that of assignment 1, however every previous Skater now has **$,** in front of their entry. We have added entries for goaltenders which all begin with **@,**
+We will again provide an example player [file](inferno.team). This file is the same as that of assignment 1, however every previous Skater now has **$,** in front of their entry. We have added entries for goaltenders which all begin with **@,**
 You can use these headers to make easier decisions when parsing the file. However, if you want you can rely on the position stored later on in the entry in the file.
 
 * The data is comma separated, with one field for each data item. You can drop of the front of each line with line = line.substring(2) to drop this header info.
