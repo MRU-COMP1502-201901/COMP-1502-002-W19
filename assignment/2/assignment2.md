@@ -237,12 +237,13 @@ The Design Document will be marked with the following rubric:
 
 You must also test your program to ensure that it works. In later assignments you will be responsible for developing and implementing a full test plan. For this assignment you need to implement the following tests.
 
-* **Player/Goalie/Skater Class**
-   * Constructors
-      * Test each of the four constructors by creating a new Skater/Goalie and getting values back from each getter method.
+* **PlayerList Class**
    * Adding a Player to the PlayerList
       * Test adding a new Goalie. After adding you should be able to get the Goalie back using the goalie's number.
       * Test adding a new Skater. After adding you should be able to get the Skater back using the skater's number.
+* **Player/Goalie/Skater Classes**
+   * Constructors
+      * Test each of the four constructors by creating a new Skater/Goalie and getting values back from each getter method.
    * Goalie -> GAA
       * Test recording a goal against. When a goal is recorded, the GAA should go up.
    * Goalie -> SV%
