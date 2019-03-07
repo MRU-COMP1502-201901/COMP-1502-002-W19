@@ -241,16 +241,17 @@ You must also test your program to ensure that it works. In later assignments yo
    * Adding a Player to the PlayerList
       * Test adding a new Goalie. After adding you should be able to get the Goalie back using the goalie's number.
       * Test adding a new Skater. After adding you should be able to get the Skater back using the skater's number.
+   * Recording Skater Stats
+      * Test recording a goal with 2 assists. After, you should see that the scoring player has an extra goal, point and shot. The assisting players should have an extra assist and point.      
 * **Player/Goalie/Skater Classes**
    * Constructors
-      * Test each of the four constructors by creating a new Skater/Goalie and getting values back from each getter method.
+      * Test each of the four constructors by creating a new Skater/Goalie and getting values back from each getter method.    
+* **Goalie Classes**
    * Goalie -> GAA
       * Test recording a goal against. When a goal is recorded, the GAA should go up.
    * Goalie -> SV%
       * Test recording a shot against. When a shot is recorded, the SV% should go up, but not greater than 1.
       * Test recording a goal against. When a goal is recorded, the SV% should go down, but not less than 0.
-   * Recording Skater Stats
-      * Test recording a goal with 2 assists. After, you should see that the scoring player has an extra goal, point and shot. The assisting players should have an extra assist and point.      
    * Recording a Goalie Stats
       * Test recording a shot against a goalie.
       * Test recording a goal against a goalie (should also record a shot against).
