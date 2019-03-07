@@ -253,7 +253,7 @@ You must also test your program to ensure that it works. In later assignments yo
       * Test recording a goal with 2 assists. After, you should see that the scoring player has an extra goal, point and shot. The assisting players should have an extra assist and point.      
    * Recording a Goalie Stats
       * Test recording a shot against a goalie.
-      * Test recording a goal against a goalie.
+      * Test recording a goal against a goalie (should also record a shot against).
       * Test recording a non-shutout with minutes played for a goalie.
       * Test recording a shutout with minutes played for a goalie.      
       
